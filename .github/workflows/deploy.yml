@@ -27,7 +27,7 @@ jobs:
           SITE_BASE: /portfolio/
         run: npm run build
       - run: node scripts/verify-build.mjs
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: dist
   deploy:
