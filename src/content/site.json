@@ -1,0 +1,366 @@
+{
+  "profile": {
+    "name": "Mohammed",
+    "headline": "Cybersecurity Researcher | Web Application Security | Ethical Hacking | Security Analysis",
+    "intro": "Understanding how systems fail—and how to make them more resilient through responsible security research.",
+    "bio": "I focus on web application security, ethical hacking, vulnerability analysis, and practical security learning. This Security Lab documents technical research, projects, and lessons learned with an emphasis on evidence, clear communication, and responsible disclosure.",
+    "focus": "Web application security, penetration-testing methodology, vulnerability analysis, Linux, and security tooling.",
+    "goals": "Build useful security tools, publish reproducible technical notes, document verified project outcomes, and collaborate on responsible security research.",
+    "email": "mohammed.csec@gmail.com",
+    "resume": "",
+    "socials": [
+  {
+    "label": "GitHub",
+    "url": "https://github.com/mohammedcsec/"
+  },
+  {
+    "label": "LinkedIn",
+    "url": "https://www.linkedin.com/in/mohammed-cybersec/"
+  }
+]
+  },
+  "seo": {
+    "title": "Mohammed | Cybersecurity Research & Security Lab",
+    "description": "A personal security lab focused on web application security, ethical hacking, vulnerability analysis, and responsible security research.",
+    "siteUrl": ""
+  },
+  "theme": {
+    "accent": "#78F0B0",
+    "background": "#0A1015"
+  },
+  "settings": {
+    "showSamples": false,
+    "motion": true
+  },
+  "navigation": [
+    {
+      "label": "Projects",
+      "path": "/projects"
+    },
+    {
+      "label": "Research Notes",
+      "path": "/research"
+    },
+    {
+      "label": "Achievements",
+      "path": "/achievements"
+    },
+    {
+      "label": "About",
+      "path": "/about"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "footer": "Built with intention. Tested responsibly. Shared with care.",
+  "technologies": [
+    "Web Application Security",
+    "Linux",
+    "Python",
+    "HTTP",
+    "Git",
+    "Security Analysis",
+    "Technical Writing"
+  ],
+  "projects": [
+    {
+      "id": "web-assessment-notebook",
+      "title": "Web Application Security Assessment Notebook",
+      "summary": "A structured framework for documenting an authorized web application assessment, from scope definition to evidence, risk analysis, remediation, and retesting.",
+      "category": "Web Application Security",
+      "tags": [
+        "HTTP",
+        "Assessment Methodology",
+        "Documentation",
+        "Risk Analysis"
+      ],
+      "status": "draft",
+      "sample": false,
+      "featured": false,
+      "type": "Assessment framework",
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "A reusable framework for recording the methodology and results of an authorized web application security assessment. Publish as a completed case study only after adding evidence from actual work."
+        },
+        {
+          "heading": "Objectives",
+          "body": "Maintain a repeatable assessment process and communicate technical risk and remediation clearly."
+        },
+        {
+          "heading": "Scope and authorization",
+          "body": "Record written authorization, in-scope assets, test windows, exclusions, permitted techniques, data-handling rules, and stop conditions before testing."
+        },
+        {
+          "heading": "Methodology",
+          "body": "Document application mapping, identity and access-control checks, session handling, input validation, business logic, and other relevant test areas. Use an established methodology such as the OWASP Web Security Testing Guide where appropriate."
+        },
+        {
+          "heading": "Findings and evidence",
+          "body": "Add only verified observations. Include sanitized, reproducible evidence and remove secrets, personal data, and sensitive infrastructure details."
+        },
+        {
+          "heading": "Risk and remediation",
+          "body": "Explain likelihood and impact in context, support severity ratings with evidence, and propose practical remediation."
+        },
+        {
+          "heading": "Validation",
+          "body": "Record retest results and lessons learned before presenting the assessment as completed."
+        }
+      ],
+      "references": [
+        {
+          "label": "OWASP Web Security Testing Guide",
+          "url": "https://owasp.org/www-project-web-security-testing-guide/"
+        }
+      ]
+    },
+    {
+      "id": "security-tool-starter",
+      "title": "Security Automation Tool",
+      "summary": "Project space for a security utility, including its problem statement, implementation, tests, limitations, and usage documentation.",
+      "category": "Automation and Tooling",
+      "tags": [
+        "Python",
+        "CLI",
+        "Testing",
+        "Documentation"
+      ],
+      "status": "draft",
+      "sample": false,
+      "featured": false,
+      "type": "Software project",
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Describe the security problem the tool is intended to solve and link to the source repository once it is available."
+        },
+        {
+          "heading": "Design",
+          "body": "Document the expected inputs and outputs, operating environment, dependencies, and safe operational boundaries."
+        },
+        {
+          "heading": "Validation",
+          "body": "Provide tests, sample outputs, known limitations, and reproducible steps to verify behavior."
+        },
+        {
+          "heading": "Lessons learned",
+          "body": "Record implementation decisions and lessons supported by the actual development work."
+        }
+      ],
+      "references": []
+    },
+    {
+      "id": "ctf-field-notes",
+      "title": "CTF & Ethical Codebreaking Field Notes",
+      "summary": "A place for documented challenge analysis, hypotheses, evidence, and lessons learned from authorized competitions and labs.",
+      "category": "CTF and Ethical Codebreaking",
+      "tags": [
+        "Analysis",
+        "Linux",
+        "Problem Solving",
+        "Write-up"
+      ],
+      "status": "draft",
+      "sample": false,
+      "featured": false,
+      "type": "Technical notes",
+      "sections": [
+        {
+          "heading": "Overview",
+          "body": "Add a specific challenge or lab name and explain the learning objective."
+        },
+        {
+          "heading": "Rules and publication",
+          "body": "Follow the competition rules and confirm that publishing a solution is permitted."
+        },
+        {
+          "heading": "Methodology",
+          "body": "Explain the assumptions, hypotheses, tools, evidence, and reasoning behind the approach."
+        },
+        {
+          "heading": "Results and lessons",
+          "body": "Report only verified results and reflect on the techniques or concepts learned."
+        }
+      ],
+      "references": []
+    }
+  ],
+  "articles": [
+    {
+      "id": "scope-before-tools",
+      "title": "Before the Tools: Define the Scope",
+      "summary": "Why clear authorization and test boundaries are essential to a useful security assessment.",
+      "category": "Methodology",
+      "tags": [
+        "Authorization",
+        "Scope",
+        "Responsible Testing"
+      ],
+      "status": "draft",
+      "sample": false,
+      "featured": false,
+      "type": "Technical article",
+      "sections": [
+        {
+          "heading": "Start with permission",
+          "body": "A security assessment begins with explicit permission and a shared understanding of what may be tested."
+        },
+        {
+          "heading": "Make the boundary concrete",
+          "body": "Record assets, test windows, permitted techniques, exclusions, data-handling requirements, and stop conditions. Resolve ambiguity with the system owner before testing."
+        },
+        {
+          "heading": "Keep evidence proportionate",
+          "body": "Collect only the evidence needed to explain and reproduce an observation. Redact credentials, personal information, and sensitive infrastructure details."
+        },
+        {
+          "heading": "Close the loop",
+          "body": "Connect each verified finding to risk and remediation. Retesting should confirm that the underlying control works, not merely that one test case no longer succeeds."
+        }
+      ],
+      "references": [
+        {
+          "label": "OWASP Web Security Testing Guide",
+          "url": "https://owasp.org/www-project-web-security-testing-guide/"
+        }
+      ]
+    },
+    {
+      "id": "reproducible-notes",
+      "title": "Writing Technical Notes Others Can Reproduce",
+      "summary": "A practical approach to documenting environments, observations, evidence, and conclusions.",
+      "category": "Technical Writing",
+      "tags": [
+        "Documentation",
+        "Research",
+        "Reproducibility"
+      ],
+      "status": "draft",
+      "sample": false,
+      "featured": false,
+      "type": "Technical article",
+      "sections": [
+        {
+          "heading": "Write for the next reader",
+          "body": "Explain the environment, assumptions, and purpose of each important step so another researcher can follow the reasoning."
+        },
+        {
+          "heading": "Record the environment",
+          "body": "Document relevant versions and configuration without exposing secrets or private target data."
+        },
+        {
+          "heading": "Separate evidence from interpretation",
+          "body": "Describe what was observed before explaining what it may mean. State uncertainty and limitations explicitly."
+        },
+        {
+          "heading": "Use useful references",
+          "body": "Link to primary documentation and explain the context in which a conclusion applies."
+        }
+      ],
+      "references": []
+    }
+  ],
+  "achievements": [
+    {
+      "id": "techwiz-6",
+      "title": "TechWiz 6 | Team SabaSec",
+      "summary": "Team leader in the Ethical Codebreaking category; Team SabaSec received a Special Jury Mention in 2025.",
+      "category": "Competition Recognition",
+      "tags": [
+        "Team Leadership",
+        "Ethical Codebreaking",
+        "2025"
+      ],
+      "status": "published",
+      "sample": false,
+      "featured": true,
+      "type": "Competition recognition",
+      "sections": [
+        {
+          "heading": "Recognition",
+          "body": "In 2025, Mohammed led Team SabaSec in the Ethical Codebreaking category at TechWiz 6. The team received a Special Jury Mention."
+        },
+        {
+          "heading": "Leadership and collaboration",
+          "body": "Role: Team Leader. Add a concise description of your specific contributions and the team's approach when those details are ready to share."
+        },
+        {
+          "heading": "Evidence",
+          "body": "Add the official competition announcement, certificate, or other evidence when available and permitted for publication. Keep the award name exactly as stated by the organizer."
+        }
+      ],
+      "references": []
+    }
+  ],
+  "homepage": {
+    "hero": {
+      "eyebrow": "Independent Research | Responsible Security",
+      "lines": [
+        "Understand",
+        "the attack."
+      ],
+      "accent": "Improve the defense."
+    },
+    "sections": {
+      "achievement": true,
+      "projects": true,
+      "technicalFocus": true,
+      "workflow": true,
+      "leadership": true,
+      "research": true,
+      "contact": true
+    },
+    "featuredAchievementId": "techwiz-6",
+    "focus": [
+      {
+        "icon": "shield",
+        "title": "Web Application Security",
+        "text": "Studying trust boundaries, authentication, authorization, and application security assumptions through structured testing."
+      },
+      {
+        "icon": "scan",
+        "title": "Ethical Hacking",
+        "text": "Focusing on authorized testing, evidence-based validation, responsible disclosure, and clear reporting."
+      },
+      {
+        "icon": "terminal",
+        "title": "Security Tools and Analysis",
+        "text": "Exploring Linux, Python, and repeatable technical workflows to support security research."
+      }
+    ],
+    "workflow": {
+      "title": "Prove the risk.\nNot just the possibility.",
+      "intro": "A responsible assessment turns a technical observation into a clear, evidence-based decision.",
+      "philosophy": "Understand the attack. Prove the risk.\nImprove the defense.",
+      "steps": [
+        {
+          "title": "Define the boundary",
+          "description": "Confirm authorization, scope, exclusions, and rules of engagement."
+        },
+        {
+          "title": "Question the assumptions",
+          "description": "Map the application and examine identity, access, and trust boundaries."
+        },
+        {
+          "title": "Follow the evidence",
+          "description": "Validate observations, document reproducible steps, and assess risk in context."
+        },
+        {
+          "title": "Strengthen the defense",
+          "description": "Recommend practical remediation and record retest results where available."
+        }
+      ]
+    },
+    "leadership": {
+      "title": "Security is a team discipline.",
+      "body": "In 2025, Mohammed led Team SabaSec in the Ethical Codebreaking category at TechWiz 6. The team received a Special Jury Mention."
+    },
+    "contact": {
+      "title": "Good security starts\nwith better questions.",
+      "intro": "Open to thoughtful collaboration, technical conversations, and responsible security research."
+    }
+  }
+}
