@@ -24,7 +24,7 @@ jobs:
       - run: npm test
       - name: Build with repository base
         env:
-          SITE_BASE: ${{ vars.SITE_BASE || format('/{0}/', github.event.repository.name) }}
+          SITE_BASE: /
         run: npm run build
       - run: node scripts/verify-build.mjs
       - uses: actions/upload-pages-artifact@v3
